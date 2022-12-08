@@ -1,0 +1,194 @@
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-registration input {
+  border-radius: 0;
+    margin-bottom: -1px;
+}
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+
+nav{
+  background-color: #1F2122;
+}
+
+ul .navbar-nav  {
+  justify-content: start;
+}
+
+nav.black{
+  background-color: #1F2122;
+  
+}
+
+.nav-link:hover { 
+ color: #e75e8d !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+  color: #e75e8d !important;
+}
+
+#navbarDropdown {
+  background-color: #27292a;
+    padding: 8px 10px 8px 20px;
+    border-radius: 23px;
+  }
+  .navbar .logo {
+    background-color: #333537;
+      padding: 8px 10px 8px 20px;
+      border-radius: 23px;
+      
+  }
+  
+/*--------------------------------------------------------------
+# Dropdown
+--------------------------------------------------------------*/
+
+
+.dropdown-menu {
+  background-color: #27292a;
+
+}
+.dropdown-item:hover{
+  color: #e75e8d !important;
+  text-decoration:none;
+  background-color: #27292a;
+} 
+
+.dropdown-item {
+color: rgba(255,255,255,.75);
+}
+
+
+/* body {
+  background: linear-gradient(to right, #de6161, #2657eb) ;
+}  */
+
+
+/*--------------------------------------------------------------
+# Hero No Slider Section
+--------------------------------------------------------------*/
+#hero-no-slider{
+  width: 100%;
+  height: 88vh;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background-color: #1F2122;
+}
+
+div #hero {
+  
+    background-color: #27292a;
+    padding: 60px;
+    border-radius: 23px;
+}
+
+
+
+#hero-no-slider::before {
+  content: "";
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#hero-no-slider h2 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+#hero-no-slider h2 em{
+  color: #ec6090;
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+#hero-no-slider p {
+  color: #fff;
+}
+
+
+
+@media (max-width: 575px) {
+  #hero-no-slider h2 {
+    font-size: 30px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Post
+--------------------------------------------------------------*/
+.post{
+   margin-top: 30px;
+   background-color: #27292a;
+   border-radius: 23px;
+
+}
+
+.card{
+  max-height: 500px; 
+  overflow:hidden; 
+  width:fit-content;
+  background-color: #1F2122;
+  border-radius: 24px;
+}
+
+#imgtitle{
+  width:fit-content;
+  background-color: #1F2122;
+  border-radius: 24px;
+}
+
+.img-fluid{
+  border-radius: 24px;
+}
+
+body{
+   background-color: #1F2122;
+}
+
+b{
+   color: #ec6090;
+}
+.btn {
+  background-color: #ec6090;
+  color: #fff;
+  box-shadow: none;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #ec6090;
+  border-color: #ec6090;
+}
+
+.btn-primary {
+  background-color: #ec6090;
+  color: #fff;
+  border-color: #ec6090;
+}
